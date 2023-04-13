@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="GO-212.4746.93">
+    <data-source name="MongoDB - blockchain@localhost" uuid="8bbb579f-24a4-4161-aa17-00d3a5bff81c">
+      <database-info product="Mongo DB" version="3.4.24" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.12" dbms="MONGO" exact-version="3.4.24" exact-driver-version="1.12" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="blockchain" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

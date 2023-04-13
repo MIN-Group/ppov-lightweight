@@ -1,0 +1,29 @@
+# config file
+
+[network]
+WorkerList: 10.0.0.20:5010,10.0.0.21:5010,10.0.0.20:5011,10.0.0.21:5011
+WorkerCandidateList: 10.0.0.20:5010,10.0.0.21:5010,10.0.0.20:5011,10.0.0.21:5011
+VoterList: 10.0.0.20:5010,10.0.0.21:5010,10.0.0.20:5011,10.0.0.21:5011
+SingleServerNodeNum: 1
+IP: 10.0.0.21
+Port: 5010
+ServicePort: 8011
+ManagementServerIP: 127.0.0.1
+ManagementServerPort: 9999
+Hostname: 主机19
+
+[Consensus]
+PubkeyList: 3059301306072a8648ce3d020106082a811ccf5501822d0342000431ed66ccb5bd12b24e2898973b6664dd2312ea5f83bb9765fbf876962f9a10d8a293e0ff22d944ea019e1912360de37d5268a46e5a72a9faf0b9ac72d3891a0e
+PrikeyList: 308193020100301306072a8648ce3d020106082a811ccf5501822d0479307702010104208df504e28d7baac7858d04b69f700701fd7b72bbb58e170ca56744d2e613b24fa00a06082a811ccf5501822da1440342000431ed66ccb5bd12b24e2898973b6664dd2312ea5f83bb9765fbf876962f9a10d8a293e0ff22d944ea019e1912360de37d5268a46e5a72a9faf0b9ac72d3891a0e
+MyPubkey: 
+MyPrikey: 
+GenesisDutyWorker: 0
+WorkerNum: 4
+VotedNum: 4
+BlockGroupPerCycle: 100000
+Tcut: 20.00
+GenerateBlockPeriod: 6.00
+TxPoolSize: 1000
+ByzantineNode: false
+DropDatabase: true
+

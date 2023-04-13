@@ -1,0 +1,13 @@
+language: go
+dist: bionic
+go:
+  - 1.14.x
+  - 1.13.x
+install:
+  - go mod vendor
+script:
+  - go test -v ./sm2/... --bench=. -cover
+  - go test -v ./sm3/... --bench=. -cover
+  - go test -v ./sm4/... --bench=. -cover
+  - go test -v ./utils/... --bench=. -cover
+  - go test -v ./internal/... --bench=. -cover

@@ -1,0 +1,33 @@
+# config file
+
+[network]
+WorkerList: 127.0.0.1:5010,127.0.0.1:5011,127.0.0.1:5012,127.0.0.1:5013
+WorkerCandidateList: 127.0.0.1:5010,127.0.0.1:5011,127.0.0.1:5012,127.0.0.1:5013
+VoterList: 127.0.0.1:5010,127.0.0.1:5011,127.0.0.1:5012,127.0.0.1:5013
+SingleServerNodeNum: 1
+IP: 127.0.0.1
+Port: 5011
+ServicePort: 8011
+ManagementServerIP: 121.15.171.86
+ManagementServerPort: 9999
+Hostname: 主机2
+
+[Consensus]
+PubkeyList: 3059301306072a8648ce3d020106082a811ccf5501822d0342000429bf8001ce283e01bdf539979b3ef05e6842e6f9d157eeb0be3888a538fcbc9d4e2e750014d7b211642e3cc3272b2b3357f29faf0e3bfea9692287c0895d7e8c
+PrikeyList: 308193020100301306072a8648ce3d020106082a811ccf5501822d04793077020101042001634b76441e8513e1f737546994cdd271387e7ec9dcc97769058b09f35f7b1ba00a06082a811ccf5501822da1440342000429bf8001ce283e01bdf539979b3ef05e6842e6f9d157eeb0be3888a538fcbc9d4e2e750014d7b211642e3cc3272b2b3357f29faf0e3bfea9692287c0895d7e8c
+MyPubkey: 
+MyPrikey: 
+GenesisDutyWorker: 0
+WorkerNum: 4
+VotedNum: 4
+BlockGroupPerCycle: 100000
+Tcut: 8
+GenerateBlockPeriod: 3
+TxPoolSize: 10000
+DropDatabase: true
+
+[MIR]
+MIRList: 
+RouterIP:
+RouterPort:
+

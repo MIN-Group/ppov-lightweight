@@ -1,0 +1,29 @@
+# config file
+
+[network]
+WorkerList: 127.0.0.1:5010,127.0.0.1:5011,127.0.0.1:5012,127.0.0.1:5013
+WorkerCandidateList: 127.0.0.1:5010,127.0.0.1:5011,127.0.0.1:5012,127.0.0.1:5013
+VoterList: 127.0.0.1:5010,127.0.0.1:5011,127.0.0.1:5012,127.0.0.1:5013
+SingleServerNodeNum: 1
+IP: 127.0.0.1
+Port: 5011
+ServicePort: 8011
+ManagementServerIP: 127.0.0.1
+ManagementServerPort: 9999
+Hostname: 主机20
+
+[Consensus]
+PubkeyList: b6cf719dd6b5a2129d36baa48a261c08f303c4edf6c9a5d816981c857988c1cd3798936a3d1d7e421fb5258811d8607d0542126e6b34c87e5e4d01cb642cf3efa730f506eddb93fe434f8f5ea38b1cf1ba3ae0a826810f6882af865c63e74951
+PrikeyList: 51753fa7604894a37be5e822dc4e1d7eb0333d86e3c473c3360cb3996a3eab41
+MyPubkey: 
+MyPrikey: 
+GenesisDutyWorker: 0
+WorkerNum: 4
+VotedNum: 4
+BlockGroupPerCycle: 100000
+Tcut: 5.00
+GenerateBlockPeriod: 0.50
+TxPoolSize: 10000
+ByzantineNode: false
+DropDatabase: true
+

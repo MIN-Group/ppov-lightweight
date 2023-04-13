@@ -1,0 +1,7 @@
+程序启动前打包一下镜像:
+docker build -t ppov:test .
+
+这个程序启动的时候需要挂载一个外部的配置文件，并且内部挂载点只能是/home/conf/，因为内部读取的文件是一定的，所以外部挂载文件内部必须有一个conf文件,同时需要注意外部网络环境配置.
+
+下面是一个典型命令，其中-v是配置挂载点，host是设置内外网络通用:
+docker run -v /home/wzx/code/ppov/Docker/conf/conf1:/home/conf/ --network host ppov:test
